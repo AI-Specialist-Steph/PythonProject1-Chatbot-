@@ -1,0 +1,62 @@
+{"intents":  [
+  {"tag":  "greetings",
+  "patterns":  ["hello", "hey", "hi",  "#movies4U", "what's up"],
+  "responses":  ["Hello! fellow movie lover", "Hello!", "Hey", "Do you need help with a movie?"]
+  },
+  {"tag": "Yes",
+  "patterns":  ["Yes", "yup", "yeah", "yes", "I'm bored"],
+  "responses": ["Let me guess, you need movie recommendations:)?, What is your current mood?"]
+  },
+  {"tag": "Negative",
+  "patterns": ["No", "no", "nope", "nah"],
+  "responses":  ["No problem! why don't you ask my friend google; https://www.google.co.uk"]
+  },
+  {"tag": "moo2",
+  "patterns":  ["happy", "excited", "okay", "Jolly", "ecstatic", "jovial", "adventurous", "cheerful", "merry"],
+  "responses": ["Same;)!, please input options to see movie recommendations"]
+  },
+  {"tag": "mood",
+  "patterns": ["sad", "down", "apathetic", "anxious", "emotional", "moody", "frisky", "calm", "irritated", "anxious", "depressed", "frustrated" ],
+  "responses": ["UH OH:(, please input options to see movie recommendations"]
+  },
+  {"tag":  "compliments",
+  "patterns":  ["how are you","bestie"],
+  "responses":  ["Splendid"]
+  },
+  {"tag":  "name",
+  "patterns": ["What's your name?", "Could you please tell me your name?",  "what can I call you?", "Introduce yourself"],
+  "responses": ["You can call me edin50, I'm a movies4U bot and I'm here to recommend movies4U! ;)"]
+  },
+  {"tag":  "see ya",
+  "patterns":  ["see ya", "bye", "goodbye", "talk to you later","thank you!"],
+  "responses":  ["Sad to see you go:(, to end our conversation, please leave a feedback by typing #feedback !", "Goodbye, to end our conversation, please leave a feedback by typing #feedback !", "Have a lovely day, please leave a feedback by typing #feedback !", "Till later, please leave a feedback by typing #feedback !"]
+  },
+  {"tag":  "feedback",
+  "patterns": ["#feedback"],
+  "responses":  ["1 Great        2 Good            3 Meh:(          4 Could do better:)            5 TERRIBLE"]
+  },
+  {"tag": "eat",
+  "patterns": ["Great", "1"],
+  "responses": ["OMG Thank you! :o"]
+  },
+  {"tag": "ood",
+  "patterns": ["Good", "2"],
+  "responses": ["Thanks"]
+  },
+  {"tag": "eh",
+  "patterns": ["Meh","3"],
+  "responses": ["Your feedback is appreciated, Will do better!"]
+  },
+  {"tag": "better",
+  "patterns": ["Could do better", "4"],
+  "responses" :["Your feedback is appreciated, Will do better!"]
+  },
+  {"tag": "tty",
+  "patterns":  ["TERRIBLE", "5"],
+  "responses": ["Thanks and Bye!"]
+  },
+  {"tag": "options",
+  "patterns": ["options", "movie options", "what are your options?", "recommend movies"],
+  "responses": ["genres; [{ \"Action\"},\"Adventure\"}, \"Fantasy\"}, \"Science Fiction\"}, homepage;http://www.avatarmovie.com/ ,  overview ; In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.title; Avatar",  "genres; \"Adventure\"Fantasy\" \"Action\", homepage; http://disney.go.com/disneypictures/pirates/  , overview; Captain Barbossa, long believed to be dead, has come back to life and is headed to the edge of the Earth with Will Turner and Elizabeth Swann. But nothing is quite as it seems.status; title; Pirates of the Caribbean: At World's End",  "genres; [{\"id\": 28, \"name\": \"Action\"}, {\"id\": 12, \"name\": \"Adventure\"}, {\"id\": 80, \"name\": \"Crime\"}], homepage;http://www.sonypictures.com/movies/spectre/, overview; A cryptic message from Bond\u2019s past sends him on a trail to uncover a sinister organization. While M battles political forces to keep the secret service alive, Bond peels back the layers of deceit to reveal the terrible truth behind SPECTRE.title;Spectre", "genres; \"Action\" \"Crime\" \"Drama\" \"Thriller\"}], homepage; http://www.thedarkknightrises.com/,  overview; Following the death of District Attorney Harvey Dent, Batman assumes responsibility for Dent's crimes to protect the late attorney's reputation and is subsequently hunted by the Gotham City Police Department. Eight years later, Batman encounters the mysterious Selina Kyle and the villainous Bane, a new terrorist leader who overwhelms Gotham's finest. The Dark Knight resurfaces to protect a city that has branded him an enemy. Status;Released, Title;The Dark Knight", "genres; [{\"id\": 28, \"name\": \"Action\"}, {\"id\": 12, \"name\": \"Adventure\"}, {\"id\": 878, \"name\": \"Science Fiction\"}],homepage;http://movies.disney.com/john-carter, Overview; John Carter is a war-weary, former military captain who's inexplicably transported to the mysterious and exotic planet of Barsoom (Mars) and reluctantly becomes embroiled in an epic conflict. It's a world on the brink of collapse, and Carter rediscovers his humanity when he realizes the survival of Barsoom and its people rests in his hands, title; John Carter", "genres; id\": 14, \"name\": \"Fantasy\"}, {\"id\": 28, \"name\": \"Action\"}, {\"id\": 12, \"name\": \"Adventure\"}], homepage;http://www.sonypictures.com/movies/spider-man3/ ,overview; The seemingly invincible Spider-Man goes up against an all-new crop of villain  including the shape-shifting Sandman. While Spider-Man\u2019s superpowers are altered by an alien organism, his alter ego, Peter Parker, deals with nemesis Eddie Brock and also gets caught up in a love triangle,title;Spider-Man 3", "Title; A college graduate functions as a nanny for a wealthy New York family. She has to handle a spoiled brat, his dysfunctional relationship with his family and a new romance in her life, Release date; 24 August 2007 (USA),Directors: Robert Pulcini, Shari Springer Berman", "Title; Divergent, Tris Prior (Shailene Woodley) lives in a futuristic world in which society is divided into five factions. As each person enters adulthood, he or she must choose a faction and commit to it for life. Tris chooses Dauntless -- those who pursue bravery above all else. However, her initiation leads to th… MORE\nRelease date: 4 April 2014 (United Kingdom)\nDirector: Neil Burger\nSequel: The Divergent Series: Insurgent\nBudget: $88 million\nAdapted from: Divergent\nProduced by: Douglas Wick; Lucy Fisher; Pouya Shahbazian", "Title; Venom, While trying to take down Carlton, the CEO of Life Foundation, Eddie, a journalist, investigates experiments of human trials. Unwittingly, he gets merged with a symbiotic alien with lethal abilities.\nRelease date: 3 October 2018 (United Kingdom)\nDirector: Ruben Fleischer\nStory by: Jeff Pinkner; Scott Rosenberg\nBox office: 856.1 million USD\nProduced by: Avi Arad; Matt Tolmach; Amy Pascal\nSequel: Venom: Let There Be Carnage", "Title; After, Tessa Young is a dedicated student, dutiful daughter and loyal girlfriend to her high school sweetheart. Entering her first semester of college, Tessa's guarded world opens up when she meets Hardin Scott, a mysterious and brooding rebel who makes her question all she thought she knew about herself -- and what she wants out of life.\nRelease date: 8 April 2019 (Los Angeles)\nDirector: Jenny Gage\nMusic by: Justin Burnett\nSequel: After We Collided\nProduction companies: Voltage Pictures; CalMaple Media; Diamond Film Productions; Offspring Entertainment; Frayed Pages Entertainment; Wattpad\nAdapted from: After", "Title; The Shawshank Redemption, Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.\nDirector\nFrank Darabont\nWriters\nStephen King(based on the short novel \"Rita Hayworth and the Shawshank Redemption\" by)Frank Darabont(screenplay by)\nStars\nTim RobbinsMorgan FreemanBob Gunton ", "Title; Three idiots, Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them \"idiots\".\nDirector\nRajkumar Hirani\nWriters\nRajkumar Hirani(screenplay)Abhijat Joshi(screenplay)Vidhu Vinod Chopra(screenplay associate)\nStars\nAamir KhanMadhavanMona Singh", "Title; Star Wars: Return of the Jedi, After a daring mission to rescue Han Solo from Jabba the Hutt, the Rebels dispatch to Endor to destroy the second Death Star. Meanwhile, Luke struggles to help Darth Vader back from the dark side without falling into the Emperor's trap.\nDirector\nRichard Marquand\nWriters\nLawrence Kasdan(screenplay by)George Lucas(screenplay by)\nStars\nMark HamillHarrison FordCarrie Fis", "Title; Toy Story 3, The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.\nDirector\nLee Unkrich\nWriters\nJohn Lasseter(story by)Andrew Stanton(story by)Lee Unkrich(story by)\nStars\nTom Hanks(voice)Tim Allen(voice)Joan Cusack(voice)", "Title; Dune, Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.\nDirector\nDenis Villeneuve\nWriters\nJon Spaihts(screenplay by)Denis Villeneuve(screenplay by)Eric Roth(screenplay by)\nStars\nTimothée ChalametRebecca FergusonZendaya", "Title; Catch me iif you can, Barely 21 yet, Frank is a skilled forger who has passed as a doctor, lawyer and pilot. FBI agent Carl becomes obsessed with tracking down the con man, who only revels in the pursuit.\nDirector\nSteven Spielberg\nWriters\nJeff Nathanson(screenplay)Frank Abagnale Jr.(book \"Catch Me If You Can: The Amazing True Story of the Youngest and Most Daring Con Man in the History of Fun and Profit\")Stan Redding(book \"Catch Me If You Can: The Amazing True Story of the Youngest and Most Daring Con Man in the History of Fun and Profit\")\nStars\nLeonardo DiCaprioTom HanksChristopher Walken", "Title; Logan, In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.\nDirector\nJames Mangold\nWriters\nJames Mangold(story by)Scott Frank(screenplay by)Michael Green(screenplay by)\nStars\nHugh JackmanPatrick StewartDafne Keen", "Title; Army of thieves, A prequel, set before the events of Army of the Dead, which focuses on German safecracker Ludwig Dieter leading a group of aspiring thieves on a top secret heist during the early stages of the zombie apocalypse.\nDirector\nMatthias Schweighöfer\nWriters\nZack Snyder(based on characters created by)Shay Hatten(screenplay by)\nStars\nMatthias SchweighöferNathalie EmmanuelRuby O. Fee", "Title; Despicable Me, Overview: Gru, a criminal mastermind, adopts three orphans as pawns to carry out the biggest heist in history. His life takes an unexpected turn when the little girls see him as their potential father.\nRelease date: 15 October 2010 (United Kingdom)\nDirectors: Pierre Coffin, Chris Renaud\nFeatured song: Despicable Me\nBox office: $543.1 million\nStory by: Sergio Pablos\nScreenplay by: Cinco Paul; Ken Daurio\n"]
+  }
+]}
